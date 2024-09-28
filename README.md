@@ -1,7 +1,7 @@
 # wave_nn_3d
 3d implementation of https://github.com/PerrySquared/wave_nn
 marginally worse than the 2d version, best model generated only 40% of paths without any breaks in them, 
-although the runtime was lowered more than 10x
+although the runtime was lowered more than 10x compared to normal lee algorithm
 
 can be used alongise a deterministic algorithm, but such impact on runtime should outweigh any gain by the model
 due to recusive approach to checking of prediction correctness 
